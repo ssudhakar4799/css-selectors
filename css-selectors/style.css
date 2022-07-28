@@ -1,0 +1,58 @@
+/* *{
+    background-color: rgb(115, 255, 0);
+} */
+.simple{
+    /* color: white; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* div p{
+    background-color: burlywood;
+} */
+/* div > p{
+    background-color: yellow;
+} */
+/* div+p{
+    background-color: yellowgreen;
+} */
+/* div ~ p{
+    background-color: rgb(42, 165, 104);
+} */
+a#link-1:link{
+    color: red;
+}
+a#link-2:visited{
+color: palevioletred;
+}
+a#link-3:hover{
+color: brown;
+}
+a#link-4:active{
+color: seagreen;
+}
+h1::after{
+    content: '-:';
+    color: aquamarine;
+}
+h3::before{
+    content: ':-:';
+    color: aqua;
+}
+pre::first-letter{
+    font-size: xx-large;
+    color: blue;
+}
+pre::first-line{
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+::marker{
+    color: chartreuse;
+    font-size: x-large;
+}
+::selection{
+    background-color: pink;
+    color: white;
+}
+[class|=top]{
+    background-color: cadetblue;
+}
